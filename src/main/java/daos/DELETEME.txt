@@ -1,0 +1,17 @@
+CREATE DATABASE JDBCDAO;
+
+CREATE TABLE car(
+id int,
+make varchar(255),
+model varchar(255),
+year varchar(4),
+color varchar(255),
+vin varchar(255)
+);
+
+INSERT INTO car(id, make, model, year, color, vin)
+VALUES(1, 'make1', 'model1', '2000', 'yellow', '19JGY47DJ397VN375'),
+(2, 'make2', 'model12', '2002', 'red', '18GK490GKJB84JH7V'),
+(3, 'make3', 'model9', '2010', 'blue', '17GT2W3JG7J1Q5Y9G'),
+(4, 'make4', 'model4', '2009', 'black', '87EOHK5923NB45C0P'),
+(5, 'make5', 'model2', '2017', 'green', 'WY4F8D9QZ672IO3F5');
